@@ -1,0 +1,68 @@
+#question-box {
+    background-color: tan;
+    min-height: 400px;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid black;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+
+#get-trivia-btn {
+    width: 544px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: darkred;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#get-trivia-btn:hover {
+    background-color: darkred;
+    color: white;
+}
+
+#correct-h4 {
+    color: darkgreen;
+}
+
+select{
+    /* width: 74%; */
+    width: 545px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 2px solid black;
+    background-color: darkred;
+    color: aliceblue;
+}
+
+/* classes uses . while ids use #*/
+.answer-choice-btn{
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 90%;
+    text-align-last: left;
+
+    /* don't show the button yet until questions added/start when button clicked */
+    display:  none;
+}
+
+.answer-choice-btn:hover{
+    background-color: bisque;
+}
