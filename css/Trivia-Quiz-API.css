@@ -48,7 +48,6 @@ select{
     color: aliceblue;
 }
 
-/* classes uses . while ids use #*/
 .answer-choice-btn{
     display: block;
     margin: 20px;
@@ -58,8 +57,6 @@ select{
     font-weight: bold;
     width: 90%;
     text-align-last: left;
-
-    /* don't show the button yet until questions added/start when button clicked */
     display:  none;
 }
 
