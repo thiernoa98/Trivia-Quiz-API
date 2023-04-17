@@ -1,19 +1,10 @@
-// Lesson 09.04 Trivia Quiz API - PROG
-
-//url for 1 question any category
-//1) use opentdb.com to get the url below 
-//2) url from the internet https://opentdb.com/api.php?amount=1
-//3. get the DOM element: the button and the div
-
-
-
-//dom elelemtns that will hold the item, h2, h3, h4...
+//dom elelemtns that will hold the item, such h2, h3, h4...
 const getTriviaBtn = document.querySelector('#get-trivia-btn');
 const categoryH2 = document.getElementById('category-h2');
 const questionH3 = document.getElementById('question-h3');
 const categoryMenu = document.getElementById('category-menu');
 const scoreBox = document.getElementById('score-box');
-//get all answer choice buttons at once w querySelector because they all have the same class name
+
 //getting all 4 buttons at once, in an array
 const ansChoiceBtns = document.querySelectorAll('.answer-choice-btn');
 
